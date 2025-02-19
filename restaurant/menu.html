@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Menu</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #1a1a1a;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .menu-container {
+            max-width: 1000px;
+            margin: auto;
+            background: #222;
+            padding: 20px;
+            border-radius: 10px;
+            display: grid;
+            grid-template-columns: 1fr 2fr 1fr;
+            gap: 10px; /* Reduced gap */
+            align-items: start;
+        }
+
+        h1 {
+            color: #ff914d;
+            font-size: 50px;
+            text-align: left;
+            grid-row: 1;
+            grid-column: 1;
+            position: relative;
+            z-index: 2;
+        }
+
+        .menu-section.main-course {
+            grid-column: 3;
+            grid-row: 1;
+            z-index: 1;
+            min-height: 400px;
+            width: 100%;
+            justify-self: end;
+            margin-right: -10px; /* Moves closer to Beverage */
+        }
+
+        .menu-section.appetizer {
+            grid-column: 1;
+            grid-row: 2;
+            margin-top: -10px; /* Prevents drifting */
+        }
+
+        .menu-section {
+            background: #333;
+            padding: 15px;
+            border-radius: 10px;
+            border: 2px solid #ff914d;
+        }
+
+        .menu-section h2 {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .menu-section h2::before,
+        .menu-section h2::after {
+            content: "";
+            flex: 1;
+            border-top: 2px solid #ff914d;
+            margin: 0 10px;
+        }
+
+        .menu-item {
+            display: flex;
+            justify-content: space-between;
+            padding: 10px;
+            border-bottom: 1px solid #444;
+        }
+
+        .menu-item:last-child {
+            border-bottom: none;
+        }
+
+        .bottom-section {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 10px; /* Keeps structure tight */
+            grid-column: span 3;
+            align-items: start;
+        }
+
+        .image-container {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 10px;
+        }
+
+        .image-container img {
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        .menu-section.beverage {
+            min-height: 400px !important;
+            height: 400px !important;
+            align-self: start;
+        }
+
+        .menu-section.side-dish {
+            height: 250px; /* Adjusted Side Dish height */
+        }
+    </style>
+</head>
+<body>
+    <div class="menu-container">
+        <h1>MENU</h1>
+        
+        <div class="menu-section main-course">
+            <h2>Main Course</h2>
+            <div class="menu-item"><span>Grilled Salmon</span> <span>$28.99</span></div>
+            <div class="menu-item"><span>Steak</span> <span>$24.99</span></div>
+            <div class="menu-item"><span>Roast Chicken</span> <span>$20.99</span></div>
+            <div class="menu-item"><span>BBQ Ribs</span> <span>$22.50</span></div>
+            <div class="menu-item"><span>Pasta Alfredo</span> <span>$18.99</span></div>
+            <div class="menu-item"><span>Beef Stroganoff</span> <span>$21.99</span></div>
+            <div class="menu-item"><span>Stuffed Peppers</span> <span>$19.49</span></div>
+        </div>
+
+        <div class="menu-section appetizer">
+            <h2>Appetizer</h2>
+            <div class="menu-item"><span>Spring Rolls</span> <span>$10.99</span></div>
+            <div class="menu-item"><span>Bruschetta</span> <span>$8.99</span></div>
+            <div class="menu-item"><span>Stuffed Mushrooms</span> <span>$9.99</span></div>
+            <div class="menu-item"><span>Garlic Bread</span> <span>$5.99</span></div>
+            <div class="menu-item"><span>Nachos</span> <span>$12.99</span></div>
+            <div class="menu-item"><span>Caprese Salad</span> <span>$11.50</span></div>
+            <div class="menu-item"><span>Cheese Platter</span> <span>$14.00</span></div>
+        </div>
+
+        <div class="bottom-section">
+            <div class="menu-section side-dish">
+                <h2>Side Dish</h2>
+                <div class="menu-item"><span>French Fries</span> <span>$4.99</span></div>
+                <div class="menu-item"><span>Mashed Potatoes</span> <span>$6.50</span></div>
+                <div class="menu-item"><span>Grilled Vegetables</span> <span>$7.99</span></div>
+                <div class="menu-item"><span>Coleslaw</span> <span>$3.99</span></div>
+                <div class="menu-item"><span>Rice Pilaf</span> <span>$5.50</span></div>
+                <div class="menu-item"><span>Onion Rings</span> <span>$6.99</span></div>
+                <div class="menu-item"><span>Mac & Cheese</span> <span>$8.00</span></div>
+            </div>
+
+            <div class="image-container">
+                <img src="image1.jpg" alt="Dish 1">
+                <img src="image2.jpg" alt="Dish 2">
+                <img src="image3.jpg" alt="Dish 3">
+                <img src="image4.jpg" alt="Dish 4">
+            </div>
+
+            <div class="menu-section beverage">
+                <h2>Beverage</h2>
+                <div class="menu-item"><span>Coffee</span> <span>$3.99</span></div>
+                <div class="menu-item"><span>Tea</span> <span>$2.99</span></div>
+                <div class="menu-item"><span>Soda</span> <span>$1.99</span></div>
+                <div class="menu-item"><span>Fresh Juice</span> <span>$4.50</span></div>
+                <div class="menu-item"><span>Smoothie</span> <span>$5.99</span></div>
+                <div class="menu-item"><span>Milkshake</span> <span>$6.50</span></div>
+                <div class="menu-item"><span>Hot Chocolate</span> <span>$4.99</span></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
