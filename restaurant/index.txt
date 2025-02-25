@@ -1,28 +1,28 @@
-Grilli - Amazing & Delicious Food
+Trojan - Amazing & Delicious Food
 
-This is a Restaurant html template made by codewithsadee
+This is a Restaurant html template made by Martin_mart
 
 
 
 #---------- TOP BAR ----------#
 
 <ion-icon name="location-outline" aria-hidden="true"></ion-icon>
-Restaurant St, Delicious City, London 9578, UK
+
 
 <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
 Daily : 8.00 am to 10.00 pm
 
 <ion-icon name="call-outline" aria-hidden="true"></ion-icon>
-+1 123 456 7890
+
 
 <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
-booking@restaurant.com
+chismartin96@gmail.com
 
 
 
 #---------- HEADER ----------#
 
-alt = Grilli - Home
+alt = trojan - Home
 
 aria-label = close menu
 <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
@@ -35,15 +35,10 @@ Contact
 
 Visit Us
 
-Restaurant St, Delicious City,
-London 9578, UK
+
 
 Open: 9.30 am - 2.30pm
 
-booking@grilli.com
-
-Booking Request
-+88-123-123456
 
 Find A Table
 
@@ -115,7 +110,7 @@ Lorem Ipsum is simply dummy text of the printingand typesetting industry lorem I
 
 Book Through Call
 
-+80 (400) 123 4567
+
 
 Read More
 
@@ -135,8 +130,8 @@ Lobster Tortellini
 
 Lorem Ipsum is simply dummy text of the printingand typesetting industry lorem Ipsum has been the industrys standard dummy text ever since the when an unknown printer took a galley of type.
 
-$40.00
-$20.00
+ksh400.00
+ksh 200.00
 
 View All Menu
 
@@ -153,7 +148,7 @@ alt = Greek Salad
 Greek Salad
 
 Seasonal
-$25.50
+2500.50
 Tomatoes, green bell pepper, sliced cucumber onion, olives, and feta cheese.
 
 2.
@@ -189,7 +184,7 @@ Avocados with crab meat, red onion, crab salad stuffed red bell pepper and green
 alt = Opu Fish
 Opu Fish
 
-$49.00
+ksh4000.00
 Vegetables, cheeses, ground meats, tomato sauce, seasonings and spices
 
 During winter daily from 7:00 pm to 9:00 pm
@@ -245,12 +240,10 @@ Contact Us
 
 Booking Request
 
-+88-123-123456
-
 Location
 
-Restaurant St, Delicious City,
-London 9578, UK
+Garden City Mall,
+Nairobi 0100
 
 Lunch Time
 
@@ -291,14 +284,14 @@ Upcoming Event
 
 alt = Flavour so good you’ll try to eat with your eyes.
 
-15/09/2022
+15/09/2025
 Food, Flavour
 Flavour so good you’ll try to eat with your eyes.
 
-08/09/2022
+08/09/2025
 Healthy Food
 
-03/09/2022
+03/09/2025
 Recipie
 
 View Our Blog
@@ -307,13 +300,13 @@ View Our Blog
 
 #---------- FOOTER ----------#
 
-alt = grilli home
+alt = Trojan home
 
-Restaurant St, Delicious City, London 9578, UK
+Trojan Garden City Mall, Nairobi 0100
 
 booking@grilli.com
 
-Booking Request : +88-123-123456
+Booking Request : +254-768-770-117
 
 Open : 09:00 am - 01:00 pm
 
@@ -339,11 +332,11 @@ Twitter
 Youtube
 Google Map
 
-&copy; 2022 Grilli. All Rights Reserved | Crafted by
+&copy; 2025 Trojan. All Rights Reserved | Crafted by
 
-https://github.com/codewithsadee
+https://github.com/Matin_mart
 
-codewithsadee
+codewithMartin
 
 
 
@@ -367,32 +360,32 @@ Best Special Menu
 alt = Greek Salad
 Greek Salad
 Avocados with crab meat, red onion, crab salad red bell pepper...
-$39.00
+ksh300.00
 
 alt = Tokusen Wagyu
 Tokusen Wagyu
 Tomatoes, green bell pepper, sliced cucumber onion, olives...
-$45.00
+ksh1400.00
 
 alt = Butternut Pumpkin
 Butternut Pumpkin
 Avocados with crab meat, red onion, crab salad stuffed bell pepper...
-$15.00
+ksh1500.00
 
 alt = Opu Fish
 Opu Fish
 Vegetables, cheeses, ground meats, tomato sauce, seasonings...
-$12.00
+ksh1200.00
 
 alt = Greek Salad
 Greek Salad
 Avocados with crab meat, red onion, crab salad red bell pepper...
-$39.00
+ksh3900.00
 
 alt = Tokusen Wagyu
 Tokusen Wagyu
 Tomatoes, green bell pepper, sliced cucumber onion, olives...
-$45.00
+ksh4500.00
 
 alt = Butternut Pumpkin
 Butternut Pumpkin
@@ -402,7 +395,7 @@ $15.00
 alt = Opu Fish
 Opu Fish
 Vegetables, cheeses, ground meats, tomato sauce, seasonings...
-$12.00
+ksh1200.00
 
 
 alt = feature banner
@@ -412,8 +405,8 @@ Lobster Tortellini
 
 Lorem Ipsum is simply dummy text of the printingand typesetting industry lorem Ipsum has been the industrys standard dummy text ever since.
 
-$40.00
-$20.00
+ksh4000.00
+ksh2000.00
 
 
 
@@ -440,7 +433,7 @@ Monday to Sunday
 5.30 pm - 11.30 pm
 
 Contact Us
-Restaurant St, Delicious City, London 9578, UK
+Garden City Mall, Nairobi 0100
 
-+88-123-123456
-reservation@restro.com
++254 768 770 117
+chismartin96@gmail.com
